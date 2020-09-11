@@ -5,7 +5,7 @@ var path = require('path');
 app.set('view engine', 'pug');
 app.get('/', (req, res) => {
   // res.sendFile(path.join(__dirname + '/dist/index.html'));
-  res.render('index', {lat: 0, lng: 0})
+  res.render('index', {lat: 39.195892, lng: 9.1594930})
   // res.send('Hello miguel is here: ');
 });
 
